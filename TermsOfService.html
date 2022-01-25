@@ -13,9 +13,15 @@
     <title>Terms of Service</title>
 
     <style>
+      @font-face {
+        font-family: 'SFProDisplay';
+        src: url(SF_Pro_Display_Regular.ttf);
+      }
       body {
-        font-family: 'Open Sans';
-        color: rgba(0, 0, 0, 0.7);
+        font-family: 'SFProDisplay';
+        /* font-family: 'Open Sans'; */
+        color: #201F36;
+
       }
       .header {
         padding-top: 80px;
@@ -27,53 +33,41 @@
         font-size: 42px;
         font-weight: 800;
         text-align: center;
-        font-family: 'Open Sans';
-        color: rgba(0, 0, 0, 0.7);
       }
 
-      h2 {
-        color: rgba(0, 0, 0, 0.7);
-        font-family: 'Open Sans';
-      }
-      h3 {
-        color: rgba(0, 0, 0, 0.7);
-        font-family: 'Open Sans';
-      }
+      
       p {
-        color: rgba(0, 0, 0, 0.7);
-        font-family: 'Open Sans';
         text-align: justify;
       }
-      li {
-        color: rgba(0, 0, 0, 0.7);
-        font-family: 'Open Sans';
-      }
+      
       .Terms__sub_Title {
         font-size: 17px;
         text-align: center;
         font-style: italic;
         margin-top: 8px !important;
-        font-family: 'Open Sans';
+      }
+      .list__item{
+        color: rgba(0,0,0, 0.5);
+
       }
       .link__item {
         text-decoration: none;
-        color: #4583e3;
-        font-family: 'Open Sans';
+
       }
 
       .link:hover {
         text-decoration: underline;
-        color: #4583e3;
       }
 
       a {
         text-decoration: none;
-        color: #4583e3;
-        font-family: 'Open Sans';
+        color: rgba(0,0,0, 0.5);
+
       }
       a:hover {
         text-decoration: underline;
-        color: #4583e3;
+        color: rgba(0,0,0, 0.5);
+
       }
 
       @media only screen and (max-width: 574px) {
@@ -98,69 +92,69 @@
             </div>
             <div className="tableOfContents">
               <ol>
-                <li>
+                <li class="list__item">
                   <a href="#list-item-1" className="link__item">
                     Acceptance
                   </a>
                 </li>
 
-                <li>
+                <li class="list__item">
                   <a href="#list-item-2" className="link__item">
                     Privacy Policy
                   </a>
                 </li>
 
-                <li>
+                <li class="list__item">
                   <a href="#list-item-5" className="link__item">
                     Acceptable Use Policy
                   </a>
                 </li>
 
-                <li>
+                <li class="list__item">
                   <a href="#list-item-6" className="link__item">
                     Intellectual Property and License
                   </a>
                 </li>
 
-                <li>
+                <li class="list__item">
                   <a href="#list-item-7" className="link__item">
                     Content Language and Translation
                   </a>
                 </li>
 
-                <li>
+                <li class="list__item">
                   <a href="#list-item-8" className="link__item">
                     Third-Party Websites, Advertisements, and Partner Services
                   </a>
                 </li>
 
-                <li>
+                <li class="list__item">
                   <a href="#list-item-9" className="link__item">
                     Disclaimer of warranties
                   </a>
                 </li>
 
-                <li>
+                <li class="list__item">
                   <a href="#list-item-10" className="link__item">
                     Limitations of Liability
                   </a>
                 </li>
-                <li>
+                <li class="list__item">
                   <a href="#list-item-11" className="link__item">
                     Indemnification
                   </a>
                 </li>
-                <li>
+                <li class="list__item">
                   <a href="#list-item-12" className="link__item">
                     Electronic communications
                   </a>
                 </li>
-                <li>
+                <li class="list__item">
                   <a href="#list-item-13" className="link__item">
                     Assignment
                   </a>
                 </li>
-                <li>
+                <li class="list__item">
                   <a href="#list-item-14" className="link__item">
                     Revisions
                   </a>
