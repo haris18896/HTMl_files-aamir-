@@ -23,12 +23,13 @@
         font-family: 'SFProDisplay';
       }
       .container {
+        margin-top: 30px;
         max-width: 900px;
-        margin-bottom: 150px;
+        margin-bottom: 30px;
       }
       .header {
-        padding-top: 80px;
-        padding-bottom: 80px;
+        padding-top: 20px;
+        padding-bottom: 20px;
         background-color: #fefefe;
       }
       h1 {
@@ -40,13 +41,14 @@
 
       p {
         text-align: justify;
+        font-weight: 400;
       }
 
       .Terms__sub_Title {
         font-size: 17px;
         text-align: center;
         font-style: italic;
-        margin-top: 8px !important;
+        margin-top: 0px !important;
       }
       .link__item {
         text-decoration: none;
@@ -108,30 +110,27 @@
   </head>
   <body>
     <div>
-      <div class="header">
-        <h1>FAQs</h1>
-        <p class="Terms__sub_Title">Need answer? Find them here...</p>
-      </div>
       <div class="container">
         <div class="accordion" id="accordionExample">
-          <h3 style="margin-bottom: 20px;">VPN BASICS</h3>
+          <h5 style="margin-bottom: 20px;">VPN BASICS</h5>
+
           <div class="accordion-item">
-            <h2 class="accordion-header" id="headingOne">
+            <h2 class="accordion-header" id="heading1">
               <button
-                class="accordion-button accord_btn"
+                class="accordion-button collapsed accord_btn"
                 type="button"
                 data-bs-toggle="collapse"
-                data-bs-target="#collapseOne"
-                aria-expanded="true"
-                aria-controls="collapseOne"
+                data-bs-target="#collapse1"
+                aria-expanded="false"
+                aria-controls="collapse1"
               >
                 What is VPN?
               </button>
             </h2>
             <div
-              id="collapseOne"
-              class="accordion-collapse collapse show accord_show"
-              aria-labelledby="headingOne"
+              id="collapse1"
+              class="accordion-collapse collapse accord_show"
+              aria-labelledby="heading1"
               data-bs-parent="#accordionExample"
             >
               <div class="accordion-body">
@@ -280,7 +279,7 @@
             </div>
           </div>
 
-          <h3 style="margin-top: 40px; margin-bottom: 20px;">EastVPN BASICS</h3>
+          <h5 style="margin-top: 40px; margin-bottom: 20px;">EastVPN BASICS</h5>
 
           <div class="accordion-item">
             <h2 class="accordion-header" id="heading6">
